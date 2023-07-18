@@ -1,0 +1,38 @@
+Q.1 Explain Middlewares in NodeJS ?
+
+Ans:In Node.js, middlewares are software components that intercept and
+ process incoming requests and outgoing responses. They enhance server
+ functionality by adding features, modifying data, handling errors, 
+ and performing authentication and authorization tasks. Middlewares 
+  are executed sequentially, allowing modular and reusable components 
+  to be plugged into the request-response cycle. They promote code 
+  organization, reusability, and flexibility in handling server-side logic.
+
+Q.2 Why use Express Over NodeJS ?
+
+Ans:Express is a framework built on top of Node.js that simplifies the development 
+of web applications by providing a minimal and flexible set of features. It allows
+developers to build web servers and APIs quickly and efficiently, making it a popular
+choice for Node.js development.
+
+Q.3 What are REST API ?
+
+REST API (Representational State Transfer API) is an architectural style for designing
+networked applications. It is based on a set of principles that define how resources are
+ accessed and manipulated over the web. REST APIs use standard HTTP methods (GET, POST, PUT, DELETE)
+  to perform operations on resources, and they typically return data in a format such as JSON or XML.
+
+Q.4 What is the use of MongoDB?
+
+MongoDB is a popular NoSQL database used for storing and retrieving data. It is designed to handle large
+amounts of unstructured and semi-structured data, making it suitable for a wide range of applications.
+MongoDB's flexible document model allows for easy scalability and data replication across multiple servers
+, making it a preferred choice for building modern, high-performance, and scalable applications.
+
+Q.5  What is Mongoose and how does it relate to MongoDB?
+
+Mongoose is an Object Data Modeling (ODM) library for Node.js that provides a higher-level abstraction layer
+ for interacting with MongoDB. It simplifies the development process by providing a schema-based solution for 
+ defining data models, validation rules, and performing database operations. Mongoose integrates with MongoDB 
+ and provides additional features like data validation, middleware, query building, and more, making it easier
+  to work with MongoDB in a Node.js environment.
